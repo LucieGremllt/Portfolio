@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module" src="src/js/i18n.js" defer></script>
+    <script  type="module" src="src/js/DOMM.js" defer></script>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/styleHome.css">
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <div id="languages">
+            <button id="fr">FR</button>
+            <button id="en">EN</button>
+        </div>
+
+        <h1 class="title" data-i18n="home"></h1>
+    </header>
+    <nav class="pagesnav">
+        <button id="Home" class="navbtn disabled" data-i18n="homebtn"></button>
+        <button id="Projects" class="navbtn" data-i18n="projectsbtn" a></button>
+    </nav>
+    <section>
+        <h3 class="subtitle lineUp" data-i18n="who"></h3>
+        <p class="lineUp" data-i18n="me1"></p>
+        <p class="lineUp" data-i18n="me2"></p>
+        <p class="lineUp" data-i18n="me3"></p>
+    </section>
+</body>
+</html>

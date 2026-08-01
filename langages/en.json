@@ -1,0 +1,99 @@
+{
+  "home": "LUCIE GREMILLET",
+  "homebtn": "HOME",
+  "projectsbtn": "MY PROJECTS",
+
+  "who": "Who am I ?",
+  "me1": "I am a second-year Computer Science student at the University Institute of Technology (IUT) Paris Rives de Seine, and I am developing my skills through academic and personal projects.",
+  "me2": "Designing useful applications about subjects that matter to me is what motivates me the most. I enjoy thinking about their architecture as well as how they are used in everyday life. My projects are a way for me to experiment with new technologies while addressing real needs.",
+  "me3": "This portfolio showcases my projects and reflects my experience, goals and the skills I have acquired throughout them.",
+
+  "type1": "Chronological Order",
+  "type2": "Software Development",
+  "type3": "Web Development",
+  "type4": "Database",
+  "type5": "Systems and Network",
+  "type6": "Other",
+
+  "more": "More...",
+  "less": "...Less",
+
+  "IHMPerso": "C++, Kotlin",
+  "IHMPerso1": "To learn more about designing <strong>software interfaces</strong>, I decided to learn C++ and then Kotlin.",
+  "IHMPerso2": "My long-term goal is to create a complete workspace bringing together multiple features: a task manager, note-taking, a timer and <strong>flashcards</strong>. The aim is to provide a single tool that improves organization, memorization and focus.",
+  "IHMPerso3": "This personal project helps me deepen my knowledge of <strong>object-oriented programming</strong>, discover new development environments and learn more about <strong>human-computer interfaces</strong>.",
+
+  "compPortfolio": "HTML, CSS, Javascript, JSON",
+  "portfolio1": "The purpose of this portfolio is to present all my projects in a more intuitive and engaging way than a simple list on a résumé or my GitHub profile. In my opinion, it is the best way for people who do not know me to discover who I am and what I create, thanks to more detailed descriptions and illustrations.",
+  "portfolio2": "This project allowed me to improve my <strong>web development</strong> skills, especially by exploring <strong>animations</strong> and implementing a <strong>translation system</strong>.",
+  "portfolio3": "It also allows me to reflect on my work, recognize the skills I have gained and appreciate everything these projects have taught me.",
+
+  "MedicS2": "SQL, ER Diagram",
+  "MedicS21": "From two Excel files and a fake interview, the goal was to analyse and model the data with an <strong>ER Diagram</strong> diagram, then to offer extensions answering one or multiple problem, and<strong>SQL queries</strong> to justify these additions.",
+  "MedicS22": "The data describe the composition, presentation and use of medicines in France.",
+  "MedicS23": "The COMPOSITION and SUBSTANCE entities were added to the ER Diagram from the informations gathered during the interview.",
+  "MedicS24": "I chose to study about the <strong>antibiotics overuse</strong>, a typical concern of the medical field, that necessitated the addition of the table PRESCRIPTION and new <strong>columns</strong> to analyse the rate of prescriptions.",
+  "MedicS2Cap": "ER Diagram",
+
+  "GraphesS2": "Java",
+  "GraphesS21": "Development of a Java <strong>UML graph</strong> converter as part of a team.",
+  "GraphesS22": "From a database composed of conversion classes, types and abstract test classes, we have developed graph classes, <strong>interfaces</strong> as well as <strong>algorithms</strong> allowing the identification of direct and indirect dependencies between the elements.",
+  "GraphesS23": "This project made me deepen the <strong>object programming</strong> in Java, especially the conception of interfaces and the use of <strong>inheritance</strong>. It also helped me get used to handle complex <strong>data structures</strong> as graphs are.",
+  "GraphesS2Cap": "Extract from the algorithms code",
+
+  "memoryS2": "HTML, CSS, Javascript",
+  "memoryS21": "Group development of a memory game. The goal was to create a start-of-game form  <strong>communicating with a server</strong>, and enable a smooth running of a classic game allowing players to quit at any time. We also developed multiple features: <strong>personal pictures import</strong>, <strong>timer</strong>, <strong>game modes</strong>, <strong>light/dark mode</strong> and end-game screen.",
+  "memoryS22": " This project taught me a lot, first about managing a larger team project, but also about JavaScript. The features we added allowed me to put my knowledge further, especialy the <strong>file uploads</strong> that took me more work and made me pay more attention to details as thinking about sorting the duplicates, limiting the number of files uploaded or verifying that the number of files is superior or equal to the chosen level.",
+  "MemoryS2Cap": "Pictures from the form and the game",
+
+  "reseauS2": "DHCP, HTTP and DNS servers, IP Helper, LaTeX",
+  "reseauS21": "According to the specifications given, I suggested an automation of <strong>TCP/IP</strong> address configuration for the hosts including all the requirements, based an the provided diagram.",
+  "reseauS22": "I designed an <strong>IP addressing plan</strong>, configured <strong>RIP routing</strong>, DHCP, HTTP and DNS servers. The most important requirement was the fault tolerance thanks to the <strong>IP Helper</strong> configuration allowing the <strong>DHCP relay</strong> between the subnetworks.",
+  "reseauS23": "A full report was made in LaTeX explaining in details all my reasoning and the explanation of the offered solution.",
+  "ReseauS2Cap": "The network architecture",
+
+  "gsiS2": "Project management",
+  "gsiS21": "In a group and according to the specifications, we have set a software development project's <strong>planning</strong> by figuring out all its key phases, from the needs assessment to the acceptance and the production deployment.",
+  "gsiS22": "The number of team members was distributed based on the need of each phase, to avoid overloads and so the risk of delay. A week was also added to the originally planned duration to allow the anticipation of issues and avoid delay penalities. ",
+  "gsiS23": "We also made a <strong>financial tracking</strong> to determine the cost of each phase and the total project, with the aim of offering the customer a billing at a <strong>flat-rate</strong> or <strong>by the hour</strong>. ",
+  "gsiS24": "A presentation was held in front of the mock client.",
+
+
+  "recueilS1": "Analysis of needs",
+  "recueilS11": "In a group, we <strong>analysed the client needs</strong> with the aim of answering a shadow company's tender. Indeed, the analysis of needs may represent between 10 and 20% of a development project and is a key factor in its success.",
+  "recueilS12": "This company wanted a new <strong>HRIS</strong> solution to better meet their <strong>CSR</strong> policy and to promote career growth internally.",
+  "recueilS13": "In that way, we gathered all the need of our client, at first globally by taking into account the number of employees, the number of stores, the line of business, then the needs or the HR department.",
+  "recueilS14": "We later elaborated an answer to all those needs and questions to ask the client to clarify the final solution to offer.",
+
+  "crazyS1": "C",
+  "crazyS11": "We worked in pairs to develop the game Crazy Circus in C.",
+  "crazyS12": "To do so, we used several <strong>algorithms</strong> including a shuffle algorithm, created <strong>text file reading</strong> functions, used the <strong>dynamic memory allocation</strong>, all of that with a precise documentation and a final report.",
+  "crazyS13": "This project was the first one to need a better organization, because it was much more consistent than the previous ones. So, I improved my <strong>communication</strong> skill and the <strong>structure</strong> of all the functions within several files.",
+  "CrazyS1Cap": "Picture from the game",
+
+  "mvS1": "Virtual machines",
+  "mvS11": "In <strong>VirtualBox</strong>, I learned to install and configure virtual machines especially a <strong>Debian</strong> machine. ",
+  "mvS12": "At first, I used an <strong>ISO image</strong> to install Debian, then chose to use 2048 MB (2 GB) of RAM, 1CPU and 20 Gio of disk memory, the bare minimum and what I need.",
+  "mvS13": "Next, I was able to do the initialization with the creation of user account, an administrator account, the <strong>disk partitioning</strong> method and the partitioning scheme with<strong>/home</strong> and <strong>/var</strong> separated to ease the organization of users and an <strong>Apache</strong> web server.",
+  "mvS14": "So I was able to learn how to manage new users, from the set up to the command prompt and to use a local web server thanks to Apache.",
+  "mvS15": "This project also allowed me to better understand the functioning of a virtual machine as well as the disk management by the operating system.",
+  "mvS1Cap": "Picture from the initialization phase and from Apache",
+
+  "etuS1": "C",
+  "etuS11": "In this two-person project, we developed a C solution of <strong>student academic records</strong> in an IUT.",
+  "etuS12": "Each semester is composed of 6 UEs and the mean of the UE of both semesters of a year is a RCUE.",
+  "etuS13": "The app allow to manage the student academic records : <strong>registering, enter the grades , monitoring semesters, calculating juries, validating UEs and a students' academic summary</strong>.",
+  "etuS14": "This project led us to think about the <strong>data structure</strong> in order to avoid redundancy, as well as th conception of more complex <strong>algorithms</strong> for the JURY command",
+
+  "bdS1": "SQL",
+  "bdS11": "From an Access <strong>database</strong>, I made <strong>SQL queries</strong> to answer several problems. A company has to deliver packages to their customers from suppliers from everywhere in the world. The purpose of this project is to highlight problems encountered in that database, like <strong>case differences</strong> for a same country which biased the results or different phone number formats but also offer queries to enable the company to <strong>optimize</strong> some deliveries.",
+  "bdS12": "For example, we made a query to highlight all the deliveries with the same country of origin and the same destination in order to take the <strong>eco-responsible policy</strong> to avoid the delivery of single packages.",
+
+  "orbito": "Python",
+  "orbito1": "It is about a <strong>Python</strong> copy of the board game Orbito, a variant of the Connect four game. Each round, both of the players put a piece on the 4 × 4 board or move one of their existing pieces. When both players have made their move, the board rotates. The first one to align four pieces after the board rotation wins the game.",
+  "orbitoCap": "Picture from the game",
+
+  "fin": ""
+
+
+}

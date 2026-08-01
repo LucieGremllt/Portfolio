@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module" src="src/js/i18n.js" defer></script>
+    <script  type="module" src="src/js/DOMM.js" defer></script>
+    <script  type="module" src="src/js/background.js" defer></script>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/styleProjects.css">
+</head>
+<body>
+<div class="background">
+    <div class="bg bgtype1 active"></div>
+    <div class="bg bgtype2"></div>
+    <div class="bg bgtype3"></div>
+    <div class="bg bgtype4"></div>
+    <div class="bg bgtype5"></div>
+    <div class="bg bgtype6"></div>
+</div>
+<header>
+    <div id="languages">
+        <button id="fr">FR</button>
+        <button id="en">EN</button>
+    </div>
+
+    <h1 class="title" data-i18n="home"></h1>
+</header>
+<nav class="pagesnav">
+    <button id="Home" class="navbtn" data-i18n="homebtn"></button>
+    <button id="Projects" class="navbtn disabled" data-i18n="projectsbtn"></button>
+</nav>
+<section class="choices">
+    <nav>
+        <button class="navbtn disabled" data-i18n="type1"></button>
+        <button class="navbtn" data-i18n="type2"></button>
+        <button class="navbtn" data-i18n="type3"></button>
+        <button class="navbtn" data-i18n="type4"></button>
+        <button class="navbtn" data-i18n="type5"></button>
+        <button class="navbtn" data-i18n="type6"></button>
+    </nav>
+</section>
+<section class="card type1 type2">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">08/26</h3>
+            <p class="lineUp" data-i18n="type2"></p>
+            <p class="comp lineUp" data-i18n="IHMPerso"></p>
+        </div>
+        <p class="lineUp" data-i18n="IHMPerso1"></p>
+        <p class="lineUp" data-i18n="IHMPerso2"></p>
+        <p class="lineUp" data-i18n="IHMPerso3"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type3">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">07/26</h3>
+            <p class="lineUp" data-i18n="type3"></p>
+            <p class="comp lineUp" data-i18n="compPortfolio"></p>
+        </div>
+        <p class="lineUp" data-i18n="portfolio1"></p>
+        <p class="lineUp" data-i18n="portfolio2"></p>
+        <p class="lineUp" data-i18n="portfolio3"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type4">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">06/26</h3>
+            <p class="lineUp" data-i18n="type4"></p>
+            <p class="comp lineUp" data-i18n="MedicS2"></p>
+        </div>
+        <p class="lineUp" data-i18n="MedicS21"></p>
+        <p class="lineUp" data-i18n="MedicS22"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/BDS2/MCD.png" alt="Image MCD">
+            </div>
+            <figcaption data-i18n="MedicS2Cap"></figcaption>
+        </figure>
+        <p class="lineUp" data-i18n="MedicS23"></p>
+        <p class="lineUp" data-i18n="MedicS24"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type2">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">05/26</h3>
+            <p class="lineUp" data-i18n="type2"></p>
+            <p class="comp lineUp" data-i18n="GraphesS2"></p>
+        </div>
+        <p class="lineUp" data-i18n="GraphesS21"></p>
+        <p class="lineUp" data-i18n="GraphesS22"></p>
+        <p class="lineUp" data-i18n="GraphesS23"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/GRAPHESS2/algos1.png" alt="Image algorithmes">
+            </div>
+            <figcaption data-i18n="GraphesS2Cap"></figcaption>
+        </figure>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type3">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">04/26</h3>
+            <p class="lineUp" data-i18n="type3"></p>
+            <p class="comp lineUp" data-i18n="memoryS2"></p>
+        </div>
+        <p class="lineUp" data-i18n="memoryS21"></p>
+        <p class="lineUp" data-i18n="memoryS22"></p>
+        <figure class="lineUp">
+            <div class="multiple">
+                <img src="src/assets/MEMORYS2/formulaire.png" alt="Image formulaire">
+                <img src="src/assets/MEMORYS2/jeu.png" alt="Image jeu">
+            </div>
+            <figcaption data-i18n="MemoryS2Cap"></figcaption>
+        </figure>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type5">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">03/26</h3>
+            <p class="lineUp" data-i18n="type5"></p>
+            <p class="comp lineUp" data-i18n="reseauS2"></p>
+        </div>
+        <p class="lineUp" data-i18n="reseauS21"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/RESEAUS2/schema.png" alt="Image schéma">
+            </div>
+            <figcaption data-i18n="ReseauS2Cap"></figcaption>
+        </figure>
+        <p class="lineUp" data-i18n="reseauS22"></p>
+        <p class="lineUp" data-i18n="reseauS23"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type6">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">02/26</h3>
+            <p class="lineUp" data-i18n="type6"></p>
+            <p class="comp lineUp" data-i18n="gsiS2"></p>
+        </div>
+        <p class="lineUp" data-i18n="gsiS21"></p>
+        <p class="lineUp" data-i18n="gsiS22"></p>
+        <p class="lineUp" data-i18n="gsiS23"></p>
+        <p class="lineUp" data-i18n="gsiS24"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type6">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">01/26</h3>
+            <p class="lineUp" data-i18n="type6"></p>
+            <p class="comp lineUp" data-i18n="recueilS1"></p>
+        </div>
+        <p class="lineUp" data-i18n="recueilS11"></p>
+        <p class="lineUp" data-i18n="recueilS12"></p>
+        <p class="lineUp" data-i18n="recueilS13"></p>
+        <p class="lineUp" data-i18n="recueilS14"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type2">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">12/25</h3>
+            <p class="lineUp" data-i18n="type2"></p>
+            <p class="comp lineUp" data-i18n="crazyS1"></p>
+        </div>
+        <p class="lineUp" data-i18n="crazyS11"></p>
+        <p class="lineUp" data-i18n="crazyS12"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/CRAZYS1/dev.png" alt="Image résultat">
+            </div>
+            <figcaption data-i18n="CrazyS1Cap"></figcaption>
+        </figure>
+        <p class="lineUp" data-i18n="crazyS13"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type5">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">11/25</h3>
+            <p class="lineUp" data-i18n="type5"></p>
+            <p class="comp lineUp" data-i18n="mvS1"></p>
+        </div>
+        <p class="lineUp" data-i18n="mvS11"></p>
+        <p class="lineUp" data-i18n="mvS12"></p>
+        <p class="lineUp" data-i18n="mvS13"></p>
+        <p class="lineUp" data-i18n="mvS14"></p>
+        <figure class="lineUp">
+            <div class="multiple">
+                <img src="src/assets/SYSTEMES1/admin.png" alt="Image initialisation">
+                <img src="src/assets/SYSTEMES1/apache.png" alt="Image apache">
+            </div>
+            <figcaption data-i18n="mvS1Cap"></figcaption>
+        </figure>
+        <p class="lineUp" data-i18n="mvS15"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type2">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">10/25</h3>
+            <p class="lineUp" data-i18n="type2"></p>
+            <p class="comp lineUp" data-i18n="etuS1"></p>
+        </div>
+        <p class="lineUp" data-i18n="etuS11"></p>
+        <p class="lineUp" data-i18n="etuS12"></p>
+        <p class="lineUp" data-i18n="etuS13"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/ETUS1/etus.png" alt="Image résultat">
+            </div>
+            <figcaption data-i18n="etuS1Cap"></figcaption>
+        </figure>
+        <p class="lineUp" data-i18n="etuS14"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type4">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">10/25</h3>
+            <p class="lineUp" data-i18n="type4"></p>
+            <p class="comp lineUp" data-i18n="bdS1"></p>
+        </div>
+        <p class="lineUp" data-i18n="bdS11"></p>
+        <p class="lineUp" data-i18n="bdS12"></p>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+<section class="card type1 type2">
+    <div class="cardContent">
+        <div class="cardTitle">
+            <h3 class="subtitle lineUp">12/24</h3>
+            <p class="lineUp" data-i18n="type2"></p>
+            <p class="comp lineUp" data-i18n="orbito"></p>
+        </div>
+        <p class="lineUp" data-i18n="orbito1"></p>
+        <figure class="lineUp">
+            <div class="sigle">
+                <img src="src/assets/ORBITO/orbito.png" alt="Image du jeu">
+            </div>
+            <figcaption data-i18n="orbitoCap"></figcaption>
+        </figure>
+    </div>
+    <div class="toggleButton" data-i18n="more"></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,186 @@
+:root{
+    --bg11:#0946b8;
+    --bg12:#713ab1;
+    --bg13:#ba5b9c;
+    --bg14:#1facc3;
+    --bg21:#703bd9;
+    --bg22:#a34dff;
+    --bg23:#be71dc;
+    --bg24:#d948d2;
+    --bg31:#3d8b37;
+    --bg32: #9fd957;
+    --bg33: #1dd381;
+    --bg34: #1b5130;
+    --bg41: #0dada0;
+    --bg42: #4e91dd;
+    --bg43: #7dffdc;
+    --bg44: #18599a;
+    --bg51: #bf642c;
+    --bg52: #f7bc25;
+    --bg53: #ff974d;
+    --bg54: #fff475;
+    --bg61: #7b2cbf;
+    --bg62: #f72585;
+    --bg63: #ff4d6d;
+    --bg64: #ff758f;
+}
+
+
+
+.cardContent{
+    max-height: 25vh;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease;
+}
+
+.cardContent.open{
+    max-height: 5000px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.cardTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    :nth-child(2){
+        margin-left: 50px;
+    }
+}
+
+.comp{
+    position: absolute;
+    right: 0;
+}
+
+.toggleButton{
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    border: transparent 2px solid;
+    margin-top: 2%;
+}
+
+.toggleButton:hover{
+    border: var(--disabled_text) 2px solid;
+}
+
+.hidden{
+    display: none;
+}
+
+.background{
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    z-index: -1;
+}
+
+.bg{
+    position: absolute;
+    inset: -20%;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+}
+.bg.active {
+    opacity: 1;
+}
+
+.bg::before,
+.bg::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    filter: blur(40px);
+}
+
+.bg::before{
+    animation: move 8s ease-in-out infinite alternate;
+}
+
+.bg::after{
+    animation: move 8s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes move{
+    from{
+        transform: translate(-10%, -10%) rotate(0deg);
+    }
+    to{
+        transform: translate(10%, 15%) rotate(35deg);
+    }
+}
+
+.bgtype1::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg11) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg12) 0, transparent 30%);
+}
+
+.bgtype1::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg13) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg14) 0, transparent 30%);
+}
+
+.bgtype2::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg21) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg22) 0, transparent 30%);
+}
+
+.bgtype2::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg23) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg24) 0, transparent 30%);
+}
+
+.bgtype3::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg31) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg32) 0, transparent 30%);
+}
+
+.bgtype3::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg33) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg34) 0, transparent 30%);
+}
+
+.bgtype4::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg41) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg42) 0, transparent 30%);
+}
+
+.bgtype4::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg43) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg44) 0, transparent 30%);
+}
+
+.bgtype5::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg51) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg52) 0, transparent 30%);
+}
+
+.bgtype5::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg53) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg54) 0, transparent 30%);
+}
+
+.bgtype6::before{
+    background:
+            radial-gradient(circle at 30% 40%, var(--bg61) 0, transparent 35%),
+            radial-gradient(circle at 70% 60%, var(--bg62) 0, transparent 30%);
+}
+
+.bgtype6::after{
+    background:
+            radial-gradient(circle at 60% 30%, var(--bg63) 0, transparent 35%),
+            radial-gradient(circle at 30% 70%, var(--bg64) 0, transparent 30%);
+}
+
+
