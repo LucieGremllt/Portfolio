@@ -141,10 +141,10 @@ section{
 
 @media screen and (max-width: 1000px){
     :root{
-        --size1: 28px;
-        --size2: 18px;
-        --size3: 14px;
-        --nav: 12px;
+        --size1: 24px;
+        --size2: 14px;
+        --size3: 12px;
+        --nav: 10px;
     }
     header{
         height: 50px;
