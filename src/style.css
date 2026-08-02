@@ -174,12 +174,6 @@ section{
 }
 
 @media screen and (max-width: 700px){
-    :root{
-        --size1: 42px;
-        --size2: 30px;
-        --size3: 22px;
-        --nav: 20px;
-    }
     h1{
         margin-top: 50px;
         height: 60px;
