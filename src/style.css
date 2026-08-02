@@ -117,6 +117,9 @@ section{
     box-shadow: var(--temp-bkg-dark) 10px 10px 5px;
 }
 
+.toggleButton{
+    font-size: var(--nav);
+}
 
 .lineUp {
     animation: 3s anim-lineUp ease-out;
@@ -144,10 +147,10 @@ section{
         --size1: 24px;
         --size2: 14px;
         --size3: 12px;
-        --nav: 10px;
+        --nav: 12px;
     }
     header{
-        height: 100px;
+        height: 80px;
     }
     nav{
         flex-wrap: wrap;
@@ -171,22 +174,18 @@ section{
             width: 300px;
         }
     }
-    h1{
-        color: blue;
-    }
 }
 
 @media screen and (max-width: 700px){
     :root{
-        --size1: 20px;
+        --size1: 22px;
         --size2: 14px;
         --size3: 10px;
-        --nav: 10px;
+        --nav: 12px;
     }
     h1{
         margin-top: 50px;
         height: 60px;
-        color: red;
     }
     .pagesnav{
         position: relative;
