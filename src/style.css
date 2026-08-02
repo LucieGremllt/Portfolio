@@ -147,7 +147,7 @@ section{
         --nav: 10px;
     }
     header{
-        height: 50px;
+        height: 100px;
     }
     nav{
         flex-wrap: wrap;
