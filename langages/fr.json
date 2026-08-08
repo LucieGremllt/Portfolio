@@ -21,16 +21,18 @@
   "less": "...Moins",
 
   "IHMPerso": "C++, Kotlin",
-  "IHMPerso1": "Afin d'en apprendre davantage sur la conception d'<strong>interfaces logicielles</strong>, j'ai décidé d'apprendre à programmer en C++ puis en Kotlin. ",
+  "IHMPersoh3": "Conception d'<strong>interfaces logicielles</strong> en C++ puis en Kotlin. ",
   "IHMPerso2": "Mon objectif à long terme est de créer un environnement de travail complet réunissant plusieurs fonctionnalités : gestion des tâches, prise de notes, minuteur et <strong>système de flashcards</strong>. L'objectif est de proposer un outil unique favorisant l'organisation, la mémorisation et la concentration au quotidien.",
   "IHMPerso3": "Cet apprentissage personnel me permet d'approfondir mes connaissances en <strong>programmation orientée objet</strong>, de découvrir de nouveaux environnements de développement et la conception d'<strong>interfaces homme-machine</strong>.",
 
   "compPortfolio": "HTML, CSS, Javascript, JSON",
+  "portfolioh3": "Création d'un portfolio au format web",
   "portfolio1": "Le but est de présenter tous mes projets de manière plus intuitive et démonstrative qu'une simple liste sur un CV ou sur mon GitHub. Il s'agit selon moi, d'un meilleur moyen de faire découvrir qui je suis et ce que je réalise à des personnes qui ne me connaissent pas, grâce à des descriptions plus détaillées et des illustrations.",
   "portfolio2": "Ce projet m'a permis d'améliorer mes compétences en <strong>développement web</strong>, notamment la découverte des <strong>animations</strong> et d'une <strong>méthode de traduction</strong>.",
   "portfolio3": "Il me permet enfin de prendre du recul sur mes réalisations, de mettre en perspective les compétences acquises et de mesurer tout ce que ces projets m'ont appris.",
 
   "MedicS2": "SQL, MCD",
+  "MedicS2h3": "Exploitation et modélisation de données",
   "MedicS21": "À partir de deux fichiers Excel et d'une interview fictive, l'objectif était d'analyser et de modéliser les données à l'aide d'un diagramme <strong>MCD</strong>, puis de proposer des extensions répondant à une ou plusieurs problématiques, et des <strong>requêtes SQL</strong> justifiant ces ajouts. ",
   "MedicS22": "Les données retracent la composition, la présentation et l'utilisation de médicaments en France",
   "MedicS23": "Les entités COMPOSITION et SUBSTANCE ont été ajoutées au MCD à partir des informations recueillies lors de l'interview.",
@@ -38,17 +40,19 @@
   "MedicS2Cap": "MCD",
 
   "GraphesS2": "Java",
-  "GraphesS21": "Développement en équipe d'un convertisseur de <strong>graphes UML</strong> en Java.",
+  "GraphesS2h3": "Développement en équipe d'un convertisseur de <strong>graphes UML</strong> en Java.",
   "GraphesS22": "À partir d'une base de code composée de classes de conversion, de types et de classes abstraites de test, nous avons développé des classes de graphes, des <strong>interfaces</strong> ainsi que des <strong>algorithmes</strong> permettant d'identifier les dépendances directes et indirectes entre les éléments.",
   "GraphesS23": "Ce projet m'a permis d'approfondir la <strong>programmation orientée objet</strong> en Java, notamment la conception d'interfaces et l'utilisation de l'<strong>héritage</strong>. Il m'a également aidé à m'accoutumer à la manipulation de <strong>structures de données</strong> complexes comme les graphes.",
   "GraphesS2Cap": "Extrait des algorithmes",
 
   "memoryS2": "HTML, CSS, Javascript",
-  "memoryS21": "Développement d'un jeu Memory en équipe. Le but : créer un formulaire de début de partie <strong>communiquant avec un serveur</strong>, et permettre le bon déroulement d'une partie classique avec abandon possible. Nous avons également développé plusieurs fonctionnalités supplémentaires : <strong>import d'images personnelles</strong>, <strong>chronomètre</strong>, <strong>modes de jeu</strong>, <strong>mode clair/sombre</strong> et écrans de fin de partie.",
+  "memoryS2h3": "Développement d'un jeu Memory en équipe.",
+  "memoryS21": "Le but : créer un formulaire de début de partie <strong>communiquant avec un serveur</strong>, et permettre le bon déroulement d'une partie classique avec abandon possible. Nous avons également développé plusieurs fonctionnalités supplémentaires : <strong>import d'images personnelles</strong>, <strong>chronomètre</strong>, <strong>modes de jeu</strong>, <strong>mode clair/sombre</strong> et écrans de fin de partie.",
   "memoryS22": "Ce projet m'a beaucoup appris, dans un premier temps sur la gestion d'un projet plus conséquent en équipe mais aussi sur <strong>JavaScript</strong>. Les fonctionnalités supplémentaires m'ont permises de pousser mes connaissances et techniques notamment le <strong>dépôt de fichiers</strong> qui m'a demandé davantage de travail et de faire plus attention aux détails comme penser à trier les doublons, limiter le nombre de fichiers chargés ou encore vérifier que le nombre d'image est supérieur ou égal au niveau choisi.",
   "MemoryS2Cap": "Images extraites du formulaire et du jeu",
 
   "reseauS2": "Serveurs DHCP, HTTP, DNS, IP Helper, LaTeX",
+  "reseauS2h3": "Installation de services réseau",
   "reseauS21": "Selon le cahier des charges fourni, j'ai proposé une automatisation de l’attribution des configurations des adresses <strong>TCP/IP</strong> aux hôtes en incluant toutes les exigences, en me basant sur le schéma fourni dans le sujet.",
   "reseauS22": "J'ai conçu un <strong>plan d'adressage IP</strong>, configuré le <strong>routage RIP</strong>, les serveurs <strong>DHCP</strong>, un serveur <strong>HTTP</strong> ainsi qu'un serveur <strong>DNS</strong>. Le plus important point du cahier des charges était la tolérance aux pannes grâce à la configuration d'<strong>IP Helper</strong> permettant le <strong>relais DHCP</strong> entre les sous-réseaux.",
   "reseauS23": "Un rapport complet a été rédigé en LaTeX détaillant mes raisonnements et les explications concernant la solution proposée.",
@@ -67,12 +71,13 @@
   "recueilS14": "Nous avons ensuite élaboré une réponse à tous ces besoins et des questions à poser au client pour préciser davantage la solution finale à apporter.",
 
   "crazyS1": "C",
-  "crazyS11": "Nous avons développé en binôme un jeu en langage C d'après le jeu Crazy Circus.",
+  "crazyS1h3": "Développement en binôme d'un jeu en langage C d'après le jeu Crazy Circus.",
   "crazyS12": "Pour ce faire, nous avons utilisé plusieurs <strong>algorithmes</strong> dont un algorithme de mélange, créé des fonctions de <strong>lecture de fichiers texte</strong>, géré l'<strong>allocation dynamique de la mémoire</strong>, le tout avec une documentation précise et un rapport final.",
   "crazyS13": "Ce projet a été le premier à nécessiter une véritable organisation, car il était plus conséquent que les précédents. J'ai donc amélioré ma <strong>communication</strong> et l'<strong>organisation</strong> des fonctions dans les différents fichiers.",
   "CrazyS1Cap": "Extrait du jeu",
 
   "mvS1": "Machines virtuelles",
+  "mvS1h3": "Configuration de machines virtuelles",
   "mvS11": "Sur <strong>VirtualBox</strong>, j'ai appris à installer et configurer des machines virtuelles notamment une machine <strong>Debian</strong>. ",
   "mvS12": "Dans un premier temps, j'ai utilisé une <strong>image ISO</strong> pour installer l'OS de Debian, puis choisi d'utiliser 2048Mo soit 2Mo de RAM, 1CPU et 20 Gio d’espace disque, le minimum et le strict nécessaire pour mes besoins.",
   "mvS13": "Ensuite, j'ai pu effectuer l'initialisation avec la création d'un compte utilisateur, d'un compte administrateur, la méthode de <strong>partitionnement</strong> du disque et le schéma de partitionnement avec <strong>/home</strong> et <strong>/var</strong> séparés pour faciliter l'organisation des utilisateurs et d'un serveur web <strong>Apache</strong>.",
@@ -81,13 +86,15 @@
   "mvS1Cap": "Extrait de l'initialisation des utilisateurs dont admin et d'Apache",
 
   "etuS1": "C",
-  "etuS11": "Dans ce projet en binôme, nous avons développé une solution en C de <strong>gestion du parcours scolaire des étudiants</strong> d'un IUT.",
+  "etuS1h3": "Implémentation d'un besion client",
+  "etuS11": "En binôme, nous avons développé une solution en C de <strong>gestion du parcours scolaire des étudiants</strong> d'un IUT.",
   "etuS12": "Chaque semestre comporte 6 UEs et la moyenne d'une UE des deux semestres d'une année est une RCUE.",
   "etuS13": "L'application permet de gérer le parcours scolaire : <strong>inscription, saisie des notes, suivi des semestres, calcul des jurys, validation des UE et bilan</strong> du parcours des étudiants.",
   "etuS14": "Ce projet nous a amenés à réfléchir à la <strong>structuration des données</strong> afin d'éviter les redondances, ainsi qu'à la conception d'<strong>algorithmes</strong> plus complexes pour les commandes JURY et BILAN. ",
   "etuS1Cap": "Image du résultat obtenu",
 
   "bdS1": "SQL",
+  "bdS1h3": "Gestion d'une base de données",
   "bdS11": "À partir d'une <strong>base de données</strong> Access, j'ai effectué des <strong>requêtes SQL</strong> pour répondre à plusieurs problématiques. Une entreprise doit livrer des colis à de nombreux clients depuis des fournisseurs situés partout dans le monde. La finalité de ce projet est de mettre en avant les problèmes que peut rencontrer cette base de données, comme des <strong>différentes casses</strong> pour un même pays faussant les résultats ou des formats de numéro de téléphone différents mais aussi de proposer des requêtes permettant à l'entreprise d'<strong>optimiser</strong> certaines livraisons.",
   "bdS12": "Nous avons par exemple une requête permettant de mettre en évidence toutes les livraisons avec le même pays d'origine et le même pays de destination pour une <strong>démarche plus éco-responsable</strong> d'éviter le transit de colis uniques.",
 
